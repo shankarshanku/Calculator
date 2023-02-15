@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    padding: 0;
+    /* background-color:olive; */
+}
+.title{
+     text-align: center;
+     font-family: monospace;
+     padding: 20px;
+     margin:0px;
+     background-color: gainsboro;
+}
+.allbutton{
+    text-align: center;
+   
+}
+.button{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 20px 20px;
+    margin:2px;
+    background-color:cornflowerblue;  
+    border-radius: 5px;
+    
+}
+.butt{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 20px 20px;
+    margin:2px;
+    background-color:coral;  
+    border-radius: 5px;
+}
+/* .but{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 20px 20px;
+    margin:2px;
+    background-color:dimgrey; 
+    border-radius: 5px;
+} */
+.row{
+     padding: 4px;
+     /* justify-content: space-evenly; */
+}
+#input{
+    padding:20px 0px;
+    margin:8px;
+    font-size: 25px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+
+}
+#display{
+    text-align: center;
+   font-family:sans-serif;  
+   padding-top: 20px;  
+}
+.big{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 20px 20px;
+    margin:2px;
+    background-color:dimgrey; 
+    border-radius: 5px;
+
+}
+.eqls{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 20px 62px;
+    margin:2px;
+    background-color:dimgray;
+    border-radius: 5px;
+}
+.clr{
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    padding: 20px 62px;
+    margin:2px;
+    background-color:dimgrey;  
+    border-radius: 5px;
+}
+

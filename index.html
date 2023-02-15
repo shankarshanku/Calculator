@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="title">
+        <h1>My calculator</h1>
+    </div>
+    <div id="display">
+        <input id="input" type="text" placeholder="0"/>
+    </div>
+
+    <div class="allbutton">
+        <div class="buttons">
+            <div class="row">
+                <button onclick="buttons(7)" class="button">7</button>
+                <button onclick="buttons(8)" class="button">8</button>
+                <button onclick="buttons(9)" class="button">9</button>
+                <button onclick="buttons('/')" class="butt">/</button>
+            </div>
+            <div class="row">
+                <button onclick="buttons(4)" class="button">4</button>
+                <button onclick="buttons(5)" class="button">5</button>
+                <button onclick="buttons(6)" class="button">6</button>
+                <button onclick="buttons('*')" class="butt">*</button>
+            </div>
+            <div class="row">
+                <button onclick="buttons(1)" class="button">1</button>
+                <button onclick="buttons(2)" class="button">2</button>
+                <button onclick="buttons(3)" class="button">3</button>
+                <button onclick="buttons('-')" class="butt">-</button>
+            </div>
+            <div class="row">
+                <button onclick="buttons(0)" class="button">0</button>
+                <button onclick="buttons('.')" class="button">.</button>
+                <button onclick="buttons('%')" class="butt">%</button>
+                <button onclick="buttons('+')" class="butt">+</button>
+            </div>
+            <div class="row">
+                <button onclick="clrs('C')" class="clr">C</button>
+                <button onclick="equals('=')" class="eqls">=</button>
+            </div>
+        </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+
+</html>
